@@ -26,7 +26,7 @@ export default function ThankYouPage() {
           </Link>
 
           <a
-            href="tel:+19197444460"
+            href="tel:+12522826094"
             className="rounded-full border border-black/15 px-6 py-3 text-sm font-semibold text-[#111111] hover:bg-[#f5f5f5]"
           >
             Call Us

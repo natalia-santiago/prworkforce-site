@@ -19,10 +19,10 @@ export default function ContactPage() {
           <div className="rounded-2xl border border-black/10 bg-[#f7f7f7] p-5">
             <p className="text-sm font-semibold text-[#111111]">Phone</p>
             <a
-              href="tel:+19197444460"
+              href="tel:+12522826094"
               className="mt-2 block text-sm text-black/70 hover:text-[#c71f25]"
             >
-              (919) 744-4460
+              (252) 282-6094
             </a>
           </div>
 

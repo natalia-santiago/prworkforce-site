@@ -135,10 +135,10 @@ export default function Home() {
                     Contact
                   </p>
                   <a
-                    href="tel:+19197444460"
+                    href="tel:+12522826094"
                     className="mt-3 block text-lg font-semibold text-[#111111] hover:text-[#c71f25]"
                   >
-                    (919) 744-4460
+                    (252) 282-6094
                   </a>
                   <a
                     href="mailto:info.prworkforce@gmail.com"
@@ -311,10 +311,10 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-4">
               <a
-                href="tel:+19197444460"
+                href="tel:+12522826094"
                 className="rounded-full bg-[#111111] px-6 py-3 text-sm font-semibold text-white hover:bg-black"
               >
-                Call (919) 744-4460
+                Call (252) 282-6094
               </a>
               <Link
                 href="/contact"
@@ -347,7 +347,7 @@ export default function Home() {
               <div className="mt-6 space-y-3 text-sm text-black/70">
                 <p>
                   <span className="font-semibold text-[#111111]">Phone:</span>{" "}
-                  (919) 744-4460
+                  (252) 282-6094
                 </p>
                 <p>
                   <span className="font-semibold text-[#111111]">Email:</span>{" "}

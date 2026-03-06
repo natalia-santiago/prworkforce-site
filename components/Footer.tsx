@@ -22,8 +22,8 @@ export default function Footer() {
           </p>
           <div className="mt-4 space-y-3 text-sm text-white/70">
             <p>Goldsboro, NC</p>
-            <a href="tel:+19197444460" className="block hover:text-white">
-              (919) 744-4460
+            <a href="tel:+12522826094" className="block hover:text-white">
+              (252) 282-6094
             </a>
             <a
               href="mailto:info.prworkforce@gmail.com"
