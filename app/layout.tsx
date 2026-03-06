@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "P&R Workforce LLC",
     images: [
       {
-        url: "/images/workforce.jpeg",
+        url: "/images/workforce.png",
         width: 1200,
         height: 630,
         alt: "P&R Workforce Electrical Staffing",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: "P&R Workforce LLC | Electrical Staffing in North Carolina",
     description:
       "Reliable electrical staffing for Raleigh, Goldsboro, Wilmington, and surrounding North Carolina areas.",
-    images: ["/images/workforce.jpeg"],
+    images: ["/images/workforce.png"],
   },
 
   robots: {

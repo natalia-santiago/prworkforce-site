@@ -100,7 +100,7 @@ export default function Home() {
           <div className="relative overflow-hidden rounded-[28px] border border-black/10 bg-[#f4f4f4] shadow-sm">
             <div className="relative aspect-[4/4] w-full">
               <Image
-                src="/images/workforce.jpeg"
+                src="/images/workforce.png"
                 alt="P&R Workforce electrical staffing team on site"
                 fill
                 className="object-cover"
