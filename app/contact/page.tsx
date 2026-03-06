@@ -1,4 +1,61 @@
+"use client";
+
+import { FormEvent, useState } from "react";
+import { useRouter } from "next/navigation";
+
+function encode(data: Record<string, string>) {
+  return Object.keys(data)
+    .map(
+      (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+    )
+    .join("&");
+}
+
 export default function ContactPage() {
+  const router = useRouter();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const data = {
+      "form-name": "contact",
+      "bot-field": String(formData.get("bot-field") || ""),
+      name: String(formData.get("name") || ""),
+      phone: String(formData.get("phone") || ""),
+      email: String(formData.get("email") || ""),
+      inquiryType: String(formData.get("inquiryType") || ""),
+      location: String(formData.get("location") || ""),
+      message: String(formData.get("message") || ""),
+    };
+
+    try {
+      setIsSubmitting(true);
+
+      const response = await fetch("/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: encode(data),
+      });
+
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
+
+      router.push("/thank-you");
+    } catch (error) {
+      console.error(error);
+      alert("There was a problem sending your message. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  }
+
   return (
     <section className="bg-white">
       <div className="mx-auto max-w-[1100px] px-6 py-14 md:py-16">
@@ -93,9 +150,9 @@ export default function ContactPage() {
             <form
               name="contact"
               method="POST"
-              action="/thank-you"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
+              onSubmit={handleSubmit}
               className="grid gap-5"
             >
               <input type="hidden" name="form-name" value="contact" />
@@ -209,9 +266,10 @@ export default function ContactPage() {
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="rounded-full bg-[#c71f25] px-7 py-3 text-sm font-semibold text-white hover:bg-[#a8171c]"
+                  disabled={isSubmitting}
+                  className="rounded-full bg-[#c71f25] px-7 py-3 text-sm font-semibold text-white hover:bg-[#a8171c] disabled:cursor-not-allowed disabled:opacity-70"
                 >
-                  Send Message
+                  {isSubmitting ? "Sending..." : "Send Message"}
                 </button>
               </div>
             </form>
