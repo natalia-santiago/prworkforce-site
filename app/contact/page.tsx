@@ -63,10 +63,10 @@ export default function ContactPage() {
           <div className="rounded-2xl border border-black/10 bg-[#f7f7f7] p-5">
             <p className="text-sm font-semibold text-[#111111]">Phone</p>
             <a
-              href="tel:+12522826094"
+              href="tel:+12525826094"
               className="mt-2 block text-sm text-black/70 hover:text-[#c71f25]"
             >
-              (252) 282-6094
+              (252) 582-6094
             </a>
           </div>
 
@@ -264,7 +264,7 @@ export default function ContactPage() {
               {status === "error" && (
                 <p className="text-sm text-red-600">
                   Something went wrong sending your message. Please try again or
-                  call (252) 282-6094.
+                  call (252) 582-6094.
                 </p>
               )}
 

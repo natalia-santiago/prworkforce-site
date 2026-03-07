@@ -40,10 +40,10 @@ export default function Header() {
             Contact
           </Link>
           <a
-            href="tel:+12522826094"
+            href="tel:+12525826094"
             className="rounded-full bg-[#111111] px-5 py-2.5 text-sm font-semibold text-white hover:bg-black"
           >
-            (252) 282-6094
+            (252) 582-6094
           </a>
         </nav>
 

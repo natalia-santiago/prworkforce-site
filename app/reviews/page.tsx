@@ -37,10 +37,10 @@ export default function ReviewsPage() {
           </Link>
 
           <a
-            href="tel:+12522826094"
+            href="tel:+12525826094"
             className="rounded-full border border-black/15 px-6 py-3 text-sm font-semibold text-black transition hover:bg-black/5"
           >
-            Call or Text (252) 282-6094
+            Call or Text (252) 582-6094
           </a>
         </div>
       </div>
