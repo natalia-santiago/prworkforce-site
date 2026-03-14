@@ -1,4 +1,3 @@
-// app/reviews/page.tsx
 import Link from "next/link";
 
 export default function ReviewsPage() {
@@ -15,15 +14,15 @@ export default function ReviewsPage() {
 
         <div className="mt-8 max-w-4xl space-y-8 text-lg leading-8 text-black/70">
           <p>
-            P&amp;R Workforce is an electrical staffing company proudly serving
-            Goldsboro, Raleigh, Wilmington, and surrounding North Carolina
-            areas. Our Google Business Profile will be available soon where
-            clients and job seekers can leave reviews and feedback.
+            P&amp;R Workforce is a staffing company proudly serving Goldsboro,
+            Raleigh, Wilmington, and surrounding North Carolina areas. Our
+            Google Business Profile will be available soon where clients and job
+            seekers can leave reviews and feedback.
           </p>
 
           <p>
             In the meantime, feel free to reach out if you need dependable
-            electrical staffing support or if you are looking for your next job
+            staffing support or if you are looking for your next job
             opportunity.
           </p>
         </div>

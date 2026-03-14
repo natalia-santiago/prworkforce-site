@@ -11,8 +11,10 @@ export default function Footer() {
             P&amp;R Workforce LLC
           </p>
           <p className="mt-3 max-w-sm text-sm leading-7 text-white/70">
-            Reliable electrical staffing based in Goldsboro, serving Raleigh,
-            Goldsboro, Wilmington, and surrounding North Carolina areas.
+            Reliable staffing company based in Goldsboro, serving Raleigh,
+            Goldsboro, Wilmington, and surrounding North Carolina areas. We
+            connect businesses with dependable workers across multiple trades
+            and industries.
           </p>
         </div>
 
@@ -26,10 +28,10 @@ export default function Footer() {
               (252) 582-6094
             </a>
             <a
-              href="mailto:info.prworkforce@gmail.com"
+              href="mailto:info@prworkforcenc.com"
               className="block break-all hover:text-white"
             >
-              info.prworkforce@gmail.com
+              info@prworkforcenc.com
             </a>
           </div>
         </div>
@@ -45,6 +47,9 @@ export default function Footer() {
             <Link href="/contact" className="block hover:text-white">
               Contact
             </Link>
+            <Link href="/reviews" className="block hover:text-white">
+              Reviews
+            </Link>
             <p>Built in reliability, Driven by Quality.</p>
           </div>
         </div>
@@ -53,7 +58,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-[1400px] flex-col gap-2 px-6 py-5 text-sm text-white/50 md:flex-row md:items-center md:justify-between">
           <p>© {year} P&amp;R Workforce LLC. All rights reserved.</p>
-          <p>Electrical Staffing in North Carolina</p>
+          <p>Skilled Trades Staffing in North Carolina</p>
         </div>
       </div>
     </footer>

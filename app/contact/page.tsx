@@ -73,10 +73,10 @@ export default function ContactPage() {
           <div className="rounded-2xl border border-black/10 bg-[#f7f7f7] p-5">
             <p className="text-sm font-semibold text-[#111111]">Email</p>
             <a
-              href="mailto:info.prworkforce@gmail.com"
+              href="mailto:info@prworkforcenc.com"
               className="mt-2 block break-all text-sm text-black/70 hover:text-[#c71f25]"
             >
-              info.prworkforce@gmail.com
+              info@prworkforcenc.com
             </a>
           </div>
 
@@ -99,16 +99,16 @@ export default function ContactPage() {
             </h2>
 
             <p className="mt-4 text-base leading-8 text-white/75">
-              Reach out if you need dependable electrical staffing support or if
-              you’re looking for your next role in the field.
+              Reach out if you need dependable staffing support or if you’re
+              looking for your next role in the field.
             </p>
 
             <div className="mt-8 space-y-4 text-sm text-white/80">
               <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                 <p className="font-semibold text-white">For employers</p>
                 <p className="mt-2 leading-7 text-white/75">
-                  Tell us about your staffing needs, timeline, project type, and
-                  service area.
+                  Tell us about your staffing needs, timeline, project type,
+                  trade, and service area.
                 </p>
               </div>
 
@@ -116,7 +116,7 @@ export default function ContactPage() {
                 <p className="font-semibold text-white">For job seekers</p>
                 <p className="mt-2 leading-7 text-white/75">
                   Share your work experience, availability, preferred location,
-                  and the type of role you’re seeking.
+                  trade, and the type of role you’re seeking.
                 </p>
               </div>
 
@@ -256,7 +256,7 @@ export default function ContactPage() {
                   name="message"
                   rows={7}
                   required
-                  placeholder="Tell us what you need or share your work experience and availability."
+                  placeholder="Tell us what you need or share your work experience, trade, and availability."
                   className="w-full rounded-xl border border-black/15 px-4 py-3 outline-none focus:border-[#c71f25]"
                 />
               </div>

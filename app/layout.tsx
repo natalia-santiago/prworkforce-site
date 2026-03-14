@@ -12,23 +12,29 @@ export const metadata: Metadata = {
 
   title: {
     default:
-      "P&R Workforce LLC | Electrical Staffing in Goldsboro, Raleigh & Wilmington NC",
+      "P&R Workforce LLC | Skilled Trades Staffing in Goldsboro, Raleigh & Wilmington NC",
     template: "%s | P&R Workforce LLC",
   },
 
   description:
-    "P&R Workforce LLC is a reliable electrical staffing company based in Goldsboro, NC serving Raleigh, Wilmington, and surrounding North Carolina areas. Built in reliability, Driven by Quality.",
+    "P&R Workforce LLC is a reliable staffing company based in Goldsboro, NC serving Raleigh, Wilmington, and surrounding North Carolina areas. We connect businesses with dependable workers and help job seekers find opportunities across electrical, HVAC, plumbing, drywall, flooring, tile, and other skilled trades.",
 
   keywords: [
-    "electrical staffing",
-    "electrician staffing",
-    "construction staffing",
-    "electrical workforce",
+    "staffing company",
     "staffing agency North Carolina",
-    "electrician jobs North Carolina",
+    "construction staffing",
+    "skilled trades staffing",
+    "electrical staffing",
+    "HVAC staffing",
+    "plumbing staffing",
+    "drywall staffing",
+    "flooring staffing",
+    "tile staffing",
     "Goldsboro staffing",
-    "Raleigh electrician staffing",
+    "Raleigh staffing",
     "Wilmington NC staffing",
+    "North Carolina staffing company",
+    "job opportunities North Carolina",
   ],
 
   alternates: {
@@ -42,9 +48,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "P&R Workforce LLC | Electrical Staffing in North Carolina",
+    title: "P&R Workforce LLC | Skilled Trades Staffing in North Carolina",
     description:
-      "Reliable electrical staffing for Raleigh, Goldsboro, Wilmington, and surrounding North Carolina areas.",
+      "Reliable staffing support for Raleigh, Goldsboro, Wilmington, and surrounding North Carolina areas across electrical, HVAC, plumbing, drywall, flooring, tile, and other skilled trades.",
     url: SITE_URL,
     siteName: "P&R Workforce LLC",
     images: [
@@ -52,7 +58,7 @@ export const metadata: Metadata = {
         url: "/images/workforce.png",
         width: 1200,
         height: 630,
-        alt: "P&R Workforce Electrical Staffing",
+        alt: "P&R Workforce Staffing Company",
       },
     ],
     locale: "en_US",
@@ -61,9 +67,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "P&R Workforce LLC | Electrical Staffing in North Carolina",
+    title: "P&R Workforce LLC | Skilled Trades Staffing in North Carolina",
     description:
-      "Reliable electrical staffing for Raleigh, Goldsboro, Wilmington, and surrounding North Carolina areas.",
+      "Reliable staffing support for Raleigh, Goldsboro, Wilmington, and surrounding North Carolina areas across electrical, HVAC, plumbing, drywall, flooring, tile, and other skilled trades.",
     images: ["/images/workforce.png"],
   },
 

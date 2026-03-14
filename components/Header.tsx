@@ -21,7 +21,7 @@ export default function Header() {
               P&amp;R Workforce LLC
             </p>
             <p className="text-xs uppercase tracking-[0.26em] text-black/50">
-              Electrical Staffing
+              Staffing Company
             </p>
           </div>
         </Link>
@@ -38,6 +38,12 @@ export default function Header() {
             className="text-sm font-medium text-[#111111] hover:text-[#c71f25]"
           >
             Contact
+          </Link>
+          <Link
+            href="/reviews"
+            className="text-sm font-medium text-[#111111] hover:text-[#c71f25]"
+          >
+            Reviews
           </Link>
           <a
             href="tel:+12525826094"

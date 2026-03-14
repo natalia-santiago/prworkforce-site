@@ -12,28 +12,33 @@ const hours = [
 ];
 
 const servicesOffered = [
-  "Temporary electrical staffing",
+  "Temporary staffing support",
   "Temporary-to-hire placements",
   "Direct hire recruiting",
-  "Commercial electrical manpower support",
   "Project-based workforce support",
+  "Skilled trades manpower support",
+  "Electrical staffing",
+  "HVAC staffing",
+  "Plumbing staffing",
+  "Drywall staffing",
+  "Flooring and tile staffing",
 ];
 
 const candidateAreas = [
-  "Electricians",
-  "Electrical helpers",
-  "Commercial electrical crews",
-  "Job site support",
-  "Project-based workers",
-  "Skilled field-ready labor",
+  "Electrical",
+  "HVAC",
+  "Plumbing",
+  "Drywall",
+  "Flooring & tile",
+  "Skilled labor",
 ];
 
 const hiringAreas = [
-  "Commercial electrical staffing",
+  "Skilled trades staffing",
   "Short-term manpower support",
   "Long-term placements",
   "Direct hire recruiting",
-  "Skilled project support",
+  "Project-based workforce support",
   "Reliable field workforce",
 ];
 
@@ -59,7 +64,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-[1400px] gap-10 px-6 py-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:py-16">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#c71f25]">
-              Electrical Staffing in North Carolina
+              Skilled Trades Staffing in North Carolina
             </p>
 
             <h1 className="mt-4 max-w-3xl text-4xl font-semibold tracking-tight text-[#111111] md:text-5xl lg:text-6xl">
@@ -69,10 +74,11 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-black/70">
-              P&amp;R Workforce is a reliable electrical staffing company based
-              out of Goldsboro, serving Raleigh, Goldsboro, and Wilmington in
-              North Carolina. We help businesses hire dependable electrical
-              talent, and we help workers connect with the right opportunities.
+              P&amp;R Workforce is a reliable staffing company based out of
+              Goldsboro, serving Raleigh, Goldsboro, and Wilmington in North
+              Carolina. We support hiring across electrical, HVAC, plumbing,
+              drywall, flooring, tile, and other skilled trades while helping
+              job seekers connect with the right opportunities.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
@@ -101,7 +107,7 @@ export default function Home() {
             <div className="relative aspect-[4/4] w-full">
               <Image
                 src="/images/workforce.png"
-                alt="P&R Workforce electrical staffing team on site"
+                alt="P&R Workforce staffing team on site"
                 fill
                 className="object-cover"
                 priority
@@ -126,9 +132,9 @@ export default function Home() {
 
               <p className="mt-5 max-w-3xl text-base leading-8 text-black/75">
                 At P &amp; R Workforce LLC, we believe strong connections build
-                strong futures — on the job site and beyond. We are a skilled
-                electrical staffing company you can count on. Success is built
-                one connection at a time.
+                strong futures — on the job site and beyond. We are a staffing
+                company you can count on. Success is built one connection at a
+                time.
               </p>
 
               <div className="mt-8 grid gap-4 sm:grid-cols-2">
@@ -156,10 +162,10 @@ export default function Home() {
                     (252) 582-6094
                   </a>
                   <a
-                    href="mailto:info.prworkforce@gmail.com"
+                    href="mailto:info@prworkforcenc.com"
                     className="mt-2 block break-all text-sm text-black/65 hover:text-[#c71f25]"
                   >
-                    info.prworkforce@gmail.com
+                    info@prworkforcenc.com
                   </a>
                   <p className="mt-3 text-sm text-black/65">
                     Available by phone, text, or email.
@@ -246,8 +252,9 @@ export default function Home() {
               </h2>
 
               <p className="mt-4 text-base leading-8 text-black/75">
-                We connect job seekers with electrical staffing opportunities
-                that match their skills, availability, and career goals.
+                We connect job seekers with staffing opportunities that match
+                their skills, availability, and career goals across multiple
+                industries and trades.
               </p>
 
               <ul className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -276,13 +283,13 @@ export default function Home() {
               </p>
 
               <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#111111] md:text-4xl">
-                Find dependable electrical talent for your next project.
+                Find dependable talent for your next project.
               </h2>
 
               <p className="mt-4 text-base leading-8 text-black/75">
                 P&amp;R Workforce helps connect businesses with reliable,
-                skilled professionals across electrical and project support
-                roles.
+                skilled professionals across electrical, HVAC, plumbing,
+                drywall, flooring, tile installation, and other support roles.
               </p>
 
               <ul className="mt-6 grid gap-3 sm:grid-cols-2">
@@ -316,12 +323,12 @@ export default function Home() {
             </p>
 
             <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#111111] md:text-4xl">
-              Real electrical work from our job sites.
+              Real work from our job sites.
             </h2>
 
             <p className="mt-4 text-base leading-8 text-black/75">
-              A look at some of the electrical installations and project work
-              completed by P&amp;R Workforce.
+              A look at some of the job site work and project support connected
+              through P&amp;R Workforce.
             </p>
           </div>
 
@@ -357,8 +364,8 @@ export default function Home() {
                 Let us know what services you’re looking for.
               </h2>
               <p className="mt-4 max-w-3xl text-base leading-8 text-black/75">
-                Whether you need electrical staffing support or are looking to
-                get hired, our team is ready to hear from you.
+                Whether you need staffing support or are looking to get hired,
+                our team is ready to hear from you.
               </p>
             </div>
 
@@ -404,7 +411,7 @@ export default function Home() {
                 </p>
                 <p>
                   <span className="font-semibold text-[#111111]">Email:</span>{" "}
-                  info.prworkforce@gmail.com
+                  info@prworkforcenc.com
                 </p>
                 <p>
                   <span className="font-semibold text-[#111111]">
@@ -444,16 +451,16 @@ export default function Home() {
             </h2>
 
             <p className="mt-4 text-base leading-8 text-black/75">
-              P&amp;R Workforce is an electrical staffing company proudly
-              serving Goldsboro, Raleigh, Wilmington, and surrounding North
-              Carolina areas. Our Google Business Profile will be available soon
-              where clients and job seekers can leave reviews and feedback.
+              P&amp;R Workforce is a staffing company proudly serving
+              Goldsboro, Raleigh, Wilmington, and surrounding North Carolina
+              areas. Our Google Business Profile will be available soon where
+              clients and job seekers can leave reviews and feedback.
             </p>
 
             <p className="mt-4 text-base leading-8 text-black/75">
               In the meantime, feel free to reach out if you need dependable
-              electrical staffing support or if you are looking for your next
-              job opportunity.
+              staffing support or if you are looking for your next job
+              opportunity.
             </p>
           </div>
         </div>
